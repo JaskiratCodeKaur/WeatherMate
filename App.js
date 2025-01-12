@@ -41,7 +41,7 @@ export default function App() {
     } 
     try {
       setError('');
-      const API_KEY = 'E42UFP898KH8AX4PF3C9QTQDT'; // Replace with your Visual Crossing API key
+      const API_KEY = ''; // Replace with your Visual Crossing API key
       const weatherRes = await axios.get(
         `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=${API_KEY}&contentType=json`
       );
